@@ -12,10 +12,6 @@ int main(int argc, int **argv)
 {
 	char input[NUM][BUFSIZE];
 	getInput(input);
-	for(int i=0; i<NUM; i++)
-	{
-		printf("%s\n", input[i]);
-	}
 	partOne(input);
 	partTwo(input);
 	return 0;
@@ -72,13 +68,11 @@ int partTwo(char input[NUM][BUFSIZE])
 
 		char temp[c][BUFSIZE];
 		t = input[i];
-		printf("c: %d\n", c);
 		for(int j=0; j<c; j++)
 		{
 			sscanf(t, "%s\n", temp[j]);
 			t = strchr(t, '\n');
 			t = t + 1;
-			printf("%d: %s|\n", j, temp[j]);
 		}
 
 		int alph[26];
