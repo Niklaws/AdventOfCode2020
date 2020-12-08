@@ -10,11 +10,11 @@ Day 04  - done
 
 Day 05  - done
 
-Day 06
+Day 06	- done
 
-Day 07
+Day 07	- stupid
 
-Day 08
+Day 08	- done and really nice
 
 Day 09
 
